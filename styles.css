@@ -6,14 +6,57 @@ html {
 
 
 body {
-  margin: 2.5rem 2.5rem 5rem 5rem;
+  margin: 2.5rem 5rem 2.5rem 5rem;
   padding: 0;
   background: #e1dfea;
 }
-@media (max-width: 768px) {
 
+@media only screen and (min-width: 600px) {
+  /* For tablets: */
+  .col-s-1 {width: 50.33%;}
+  .col-s-2 {width: 50.66%;}
+  .col-s-3 {width: 25%;}
+  .col-s-4 {width: 33.33%;}
+  .col-s-5 {width: 41.66%;}
+  .col-s-6 {width: 50%;}
+  .col-s-7 {width: 58.33%;}
+  .col-s-8 {width: 66.66%;}
+  .col-s-9 {width: 75%;}
+  .dsc {
+    position: relative;
+    margin-left: 10.5rem;
+    display: block;
+    height: fit-content;
+    width: 75%;
+    text-align: left;
+  }
+  .col-s-10 {width: 83.33%;}
+  .col-s-11 {width: 91.66%;}
+  .col-s-12 {width: 100%;}
 }
-
+@media only screen and (min-width: 768px) {
+  /* For desktop: */
+  .col-1 {width: 50.33%;}
+  .col-2 {width: 16.66%;}
+  .col-3 {width: 25%;}
+  .col-4 {width: 33.33%;}
+  .col-5 {width: 41.66%;}
+  .col-6 {width: 50%;}
+  .dsc {
+    position: relative;
+    margin-left: 10.5rem;
+    display: block;
+    height: fit-content;
+    width: 50%;
+    text-align: left;
+  }
+  .col-7 {width: 58.33%;}
+  .col-8 {width: 66.66%;}
+  .col-9 {width: 75%;}
+  .col-10 {width: 83.33%;}
+  .col-11 {width: 91.66%;}
+  .col-12 {width: 100%;}
+}
 .conten {
   position: relative;
   margin-left: 0;
@@ -22,14 +65,7 @@ body {
   height: auto;
 }
 
-.dsc {
-  position: relative;
-  margin-left: 10.5rem;
-  display: block;
-  height: auto;
-  width: 24rem;
-  text-align: left;
-}
+
 .dscli1 {
   position: relative;
   margin-left: 13rem;
