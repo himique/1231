@@ -1,27 +1,55 @@
 html {
   font-family: "DM Sans", sans-serif;
+  
   font-weight: 400;
   font-size: 1.1rem;
 }
 
 
 body {
-  margin: 2.5rem 5rem 2.5rem 5rem;
+  margin: 3.704vh 7.407vh 3.704vh 7.407vh;
+  margin: 0;
   padding: 0;
+  border: 0;
   background: #e1dfea;
 }
 
-@media only screen and (min-width: 600px) {
-  /* For tablets: */
-  .col-s-1 {width: 50.33%;}
-  .col-s-2 {width: 50.66%;}
-  .col-s-3 {width: 25%;}
-  .col-s-4 {width: 33.33%;}
-  .col-s-5 {width: 41.66%;}
-  .col-s-6 {width: 50%;}
-  .col-s-7 {width: 58.33%;}
-  .col-s-8 {width: 66.66%;}
-  .col-s-9 {width: 75%;}
+@media (max-width: 500px) {
+  body {
+    margin: 1.704vh  1.407vh 1.704vh  1.407vh;
+    padding: 0;
+    background: #e1dfea;
+  }
+  
+  .dsc {
+    position: relative;
+    margin-left: 5.5rem;
+    display: block;
+    height: fit-content;
+    width: 75%;
+    text-align: left;
+  }
+  .dscli1 {
+    position: relative;
+    margin-left: 1vh;
+    display: block;
+    height: fit-content;
+    width: 75%;
+    text-align: left;
+  }
+
+  .dscli2 {
+    position: relative;
+    margin-left: 1vh;
+    display: block;
+    height: fit-content;
+    width: 75%;
+    text-align: left;
+  }
+
+}
+
+@media (max-width: 960px) and (min-width: 501px) {
   .dsc {
     position: relative;
     margin-left: 10.5rem;
@@ -30,33 +58,33 @@ body {
     width: 75%;
     text-align: left;
   }
-  .col-s-10 {width: 83.33%;}
-  .col-s-11 {width: 91.66%;}
-  .col-s-12 {width: 100%;}
-}
-@media only screen and (min-width: 768px) {
-  /* For desktop: */
-  .col-1 {width: 50.33%;}
-  .col-2 {width: 16.66%;}
-  .col-3 {width: 25%;}
-  .col-4 {width: 33.33%;}
-  .col-5 {width: 41.66%;}
-  .col-6 {width: 50%;}
-  .dsc {
+  .cl {
+    margin: 0;
+    padding: 0;
+  }
+  .dscli1 {
     position: relative;
-    margin-left: 10.5rem;
-    display: block;
+    margin-left: 1vh;
     height: fit-content;
-    width: 50%;
+    width: 75%;
     text-align: left;
   }
-  .col-7 {width: 58.33%;}
-  .col-8 {width: 66.66%;}
-  .col-9 {width: 75%;}
-  .col-10 {width: 83.33%;}
-  .col-11 {width: 91.66%;}
-  .col-12 {width: 100%;}
+  body {
+    margin: 1.704vh  1.407vh 1.704vh  1.407vh;
+    padding: 0;
+    background: #e1dfea;
+  }
+  
+  .dscli2 {
+    position: relative;
+    margin-left: 1vh;
+    display: block;
+    height: fit-content;
+    width: 75%;
+    text-align: left;
+  }
 }
+
 .conten {
   position: relative;
   margin-left: 0;
@@ -74,6 +102,7 @@ body {
   width: fit-content;
   text-align: left;
 }
+
 .dscli2 {
   position: relative;
   margin-left: 2rem;
@@ -87,45 +116,55 @@ body {
   margin: 0;
   padding: 0;
 }
+
 .clli {
   font-weight: 400;
   margin: 0;
   padding: 0;
   font-size: 1rem;
 }
-.cltx{
+
+.cltx {
   font-weight: 400;
   margin: 0;
   padding: 0;
   font-size: 1rem;
 }
+
 .desc {
   font-family: "DM Sans", sans-serif;
   font-weight: 400;
   font-size: 1rem;
   color: #969696;
 }
-.inlblck{
+
+.inlblck {
   position: relative;
   margin-left: 2rem;
   display: inline-block;
   height: auto;
   width: fit-content;
 }
-.inlblckone{position: relative;
+
+.inlblckone {
+  position: relative;
   margin-left: 17rem;
   display: inline-block;
   height: auto;
-  width: fit-content;}
-.spntx{
+  width: fit-content;
+}
+
+.spntx {
   font-weight: bold;
 }
-.inlh2{
+
+.inlh2 {
   position: relative;
   display: inline-block;
   height: auto;
   width: fit-content;
 }
+
 .sp1 {
   margin: 1rem 0;
   height: 0.5rem;
@@ -133,7 +172,7 @@ body {
   background: #4380D3;
 }
 
-.sphead{
+.sphead {
   margin-bottom: 1rem;
   margin-top: 1rem;
 }
